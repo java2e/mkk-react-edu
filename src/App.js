@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Card from './components/Card';
+import NewExpense from './components/NewExpenses/NewExpense';
+import Expenses from './components/Expenses/Expenses';
 
-function App() {
+const  App = () => {
   return (
     <div>
-        <Card></Card>
+      <NewExpense></NewExpense>
+      <Expenses title="Expenses Component"></Expenses>
     </div>
   );
 }
