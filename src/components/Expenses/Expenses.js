@@ -1,10 +1,16 @@
+import Card from "../UI/Card";
 
+import './Expenses.css';
 
 const Expenses = (props) => {
 
     return (
         <div>
-            <h1>{props.title}</h1>
+            <Card className="expenses">
+
+
+
+            </Card>
         </div>
     )
 }
