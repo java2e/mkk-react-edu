@@ -22,13 +22,13 @@ const DUMMY_DATA = [
     id:"3",
     title:"Bilgisayar",
     amount:95.12,
-    date: new Date(2022,6,3)
+    date: new Date(2022,6,6)
   },
   {
     id:"4",
     title:"Bilgisayar",
     amount:95.12,
-    date: new Date(2022,7,4)
+    date: new Date(2022,7,5)
   },
 
 ];
